@@ -1,0 +1,231 @@
+
+body{
+	background-color:black;
+}
+
+
+h1 {
+	height: 30px;
+	width: 736px;
+	/*font-family: Courier;*/
+	font-family: 'Press Start 2P', cursive;
+	font-weight: bold;
+	font-size: 25px;
+	color: red;
+	float: left;
+	padding: 9px;
+	border: 5px solid red;
+	margin-left: 200px;
+}
+
+h4 {
+	height: 50px;
+	width: 736px;
+/*	margin: 0 auto;
+*/	font-family: 'Press Start 2P', cursive;
+	font-weight: bold;
+	font-size: 18px;
+/*	clear: both;
+*/	color: yellow;
+	margin-bottom: -5px;
+	margin-left: 200px;
+	text-align: center;
+}
+
+#boardBox {
+	display: inline-block;
+	/*border: 5px solid red;*/
+	padding: 15px;
+	margin-left: 70px;
+}
+
+
+
+#board {
+	display: inline-block;
+	height: 200px;
+	width: 700px;
+	clear: both;
+	margin: 0 auto;
+	margin-bottom: 25px;
+	/*border: 2px, solid, yellow;*/
+}
+
+.droppable {
+  left: 250px;
+  top: 0;
+  width: 500px;
+  height: 35px;
+  background: #2C2D2E;
+  /*color: #fff;*/
+  padding: 10px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 18px;
+  color: yellow;
+}
+
+
+li {
+
+	list-style: none;
+	font-family: Courier;
+	font-size: 10px;
+	margin: 10px;
+	color: yellow;
+}
+
+li.answers {
+	display: inline-block;
+	list-style: none;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 15px;
+	color: yellow;
+	margin-bottom: 15px;
+	text-align: center;
+	padding-top: 10px;
+	vertical-align: middle;
+
+}
+
+.draggable {
+  width: 175px;
+  height: 63px;
+  background: #2C2D2E;
+  padding: 5px;
+}
+
+
+.scores {
+	width: 150px;
+	height: 20px;	
+	font-family: 'Press Start 2P', cursive;
+	font-size: 15px;
+	font-weight: bold;
+	word-wrap: break-word;
+	color: yellow;
+}
+
+
+.topContainer{
+	width: 1260px;
+	height: 117px;	
+
+
+}
+
+.middleContainer{
+	margin-top: 18px;
+	width: 1260px;
+	height: 300px;	
+	/*border: 5px solid red;*/
+	clear: both;
+}
+
+
+
+.answersUL{
+	margin-left: 100px;
+}
+
+.answersContainer {
+
+	display: inline-block;
+	height: 150px;
+	width: 1260px;
+	clear: both;
+	margin: 0 auto;
+	margin-top: 25px;		
+	/*border: 5px dashed red;*/
+}
+
+#leftSide {
+	display: inline-block;
+	width: 150px;
+	height: 150px;	
+	font-family: 'Press Start 2P', cursive;
+	font-size: 15px;
+	font-weight: bold;
+	float: left;
+/*	clear: both;
+*/	word-wrap: break-word;
+	color: yellow;
+	border: 5px solid red;
+	padding: 15px;
+	text-align: center;
+}
+
+#rightSide {
+	display: inline-block;
+	width: 150px;
+	height: 150px;	
+	font-family: 'Press Start 2P', cursive;
+	font-size: 15px;
+	font-weight: bold;
+	float: right;
+	/*clear: both;
+*/	word-wrap: break-word;
+	color: yellow;
+	border: 5px solid red;
+	padding: 15px;
+	text-align: center;
+
+}
+
+#displayBoard {
+	width: 950px;
+	height: 50px;	
+	font-family: 'Press Start 2P', cursive;
+	font-size: 15px;
+	font-weight: bold;
+	float: right;
+	clear: both;
+	word-wrap: break-word;
+	color: yellow;
+	margin-top: 25px;
+}
+
+
+.active {
+    border-color : blue;
+    background : gray;
+}  
+
+.hover {
+    border-color : red;
+    background : green;
+}
+
+.done {
+	width: 250px;
+	height: 35px;
+}  
+
+
+#reset {
+	width: 125px;
+	height: 75px;
+	background-color: yellow;
+	border: 5px solid red;
+	color: red;
+	padding: 9px;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 15px;
+	margin-left: 50px;
+	margin-top: 25px;
+}
+
+#player1Score {
+	font-size: 22px;
+}
+#player2Score {
+	font-size: 22px;
+}
+
+#player1Lives {
+	margin-top: 20px;
+	font-size: 27px;
+}
+#player2Lives {
+	margin-top: 20px;
+	font-size: 27px;
+}

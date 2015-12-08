@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>gameBoard</title>
+	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
+	<script src="js/gameBoard.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/gameBoard.css">
+	<link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+
+</head>
+	<body>
+
+	<div class="topContainer">
+
+	<h1>DRAG 'N' DROP FAMILY FORTUNES</h1>
+
+	<input type="button"  value="Reset" id="reset"></input>
+		
+	<div class="scores">
+		<!--<div id="player1Score">player 1 score</div> -->
+	 	<!--<input type="button"  value="Go" id="go"></input>-->
+	</div>	
+
+	</div>	
+
+
+	<div class="middleContainer">
+
+		<h4 id="topic">NAME A CHOCOLATE BAR BEGINNING WITH THE LETTER 'T'</h4>	
+
+		<div id="leftSide">
+			<!--<input type="button"  value="Restart§" id="reset"></input>-->		
+			<p> player 1 </p>
+			<div id="player1Score">score</div>
+			<div id="player1Lives">3</div>
+			<p> lives</p>
+			<!--<input type="button"  value="Go" id="go"></input>-->
+		</div>	
+	
+		<div id="boardBox">	
+		<ul id="board">
+			<li><div class="droppable" id="droppable1" id="A1">most popular.........40pts</div></li> 
+			<li><div class="droppable" id="droppable2" id="A2">2nd most popular.....30pts</div></li> 
+			<li><div class="droppable" id="droppable3"id="A3">3rd most popular.....20pts</div></li> 
+			<li><div class="droppable" id="droppable4" id="A4">least popular........10pts</div></li> 
+		</ul>
+		</div>
+	
+		<div id="rightSide">
+			<p> player 2 </p>
+			<div id="player2Score">score</div>
+			<div id="player2Lives">3</div>
+			<p> lives</p>
+			<!--<div id="turn">turn</div>-->	
+			<!--<div id="round">round</div>-->
+			</div>	
+		</div>	
+	
+
+	</div>	
+
+
+
+	<div  class="answersContainer">
+
+<!-- 	<h4 id="topic">NAME A CHOCOLATE BAR BEGINNING WITH THE LETTER 'T'</h4> -->
+
+	<div id="displayBoard">
+		"Player1 please make your move!"
+		<!-- <div id="round">round</div> -->
+	</div>	
+
+		<ul class="answersUL">
+			<li class="answers">
+				<div class="draggable" id="C1">1</div>
+			</li> 
+			<li class="answers">
+				<div class="draggable" id="C2">2</div>
+			</li> 
+			<li class="answers">
+				<div class="draggable" id="C3">3</div>
+			</li> 
+			<li class="answers">
+				<div class="draggable" id="C4">4</div>
+			</li> 
+		</ul>
+
+	</div>
+
+
+
+	</body>
+</html>
