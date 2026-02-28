@@ -1,0 +1,61 @@
+:root {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #050517;
+  color: #f5f7ff;
+}
+
+.game-shell {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  gap: 0.75rem;
+  padding: 1rem;
+}
+
+h1 {
+  margin: 0;
+}
+
+.instructions {
+  margin: 0;
+  opacity: 0.8;
+}
+
+.hud {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+#restart {
+  border: 1px solid #f7d046;
+  border-radius: 6px;
+  background: transparent;
+  color: #f7d046;
+  cursor: pointer;
+  padding: 0.3rem 0.75rem;
+}
+
+#restart:hover {
+  background: #f7d046;
+  color: #101020;
+}
+
+#game {
+  border: 3px solid #5f85ff;
+  border-radius: 10px;
+  background: #0b0b2d;
+  box-shadow: 0 0 16px rgba(95, 133, 255, 0.35);
+}
+
+.status {
+  min-height: 1.2rem;
+  margin: 0;
+  font-weight: bold;
+}
